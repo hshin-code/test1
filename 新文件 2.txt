@@ -14,3 +14,4 @@
 14, git reflog
 
 15, git clone https://github.com/AprilRobotics/apriltag.git
+16, git pull origin master
