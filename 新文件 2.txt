@@ -1,0 +1,16 @@
+1, git init
+2, git status (紅色代表有更新)
+3, git add . (準備紀錄, vscode 由U->A, 資料夾內全部)
+4, 在下 git status (準備紀錄, 紅色->綠色)
+5, git commit -m "add_print_v1" (Record changes to the repository)
+6, git config --global user.email "hshin751@gmail.com"
+7, git config --global user.name "Mark,Shih"
+8, gitk -> open GUI
+9, git log -> check log
+10, git diff 0b5a030 d123e276 (利用SHA ID diff)
+11, git diff d123e276 0b5a030 (利用SHA ID diff)
+12, git add test.py (準備紀錄, vscode 由U->A, 資料夾內test.py file)
+13, git restore --staged test.py (回到 add 前)
+14, git reflog
+
+15, git clone https://github.com/AprilRobotics/apriltag.git
